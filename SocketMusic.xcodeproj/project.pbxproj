@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC966DD32050FAD7006F33C8 /* MTServerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC966DD22050FAD7006F33C8 /* MTServerViewController.m */; };
+		BCC01D0D1DDC145D00C4F2DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC01D0C1DDC145D00C4F2DA /* main.m */; };
+		BCC01D101DDC145D00C4F2DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC01D0F1DDC145D00C4F2DA /* AppDelegate.m */; };
+		BCC01D131DDC145D00C4F2DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC01D121DDC145D00C4F2DA /* ViewController.m */; };
+		BCC01D161DDC145D00C4F2DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC01D141DDC145D00C4F2DA /* Main.storyboard */; };
+		BCC01D181DDC145D00C4F2DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCC01D171DDC145D00C4F2DA /* Assets.xcassets */; };
+		BCC01D1B1DDC145D00C4F2DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC01D191DDC145D00C4F2DA /* LaunchScreen.storyboard */; };
+		BCC01D251DDC14BD00C4F2DA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC01D241DDC14BD00C4F2DA /* MediaPlayer.framework */; };
+		BCC01D271DDC14CE00C4F2DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC01D261DDC14CE00C4F2DA /* UIKit.framework */; };
+		BCC01D291DDC14DD00C4F2DA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC01D281DDC14DD00C4F2DA /* Security.framework */; };
+		BCC01D2B1DDC14E500C4F2DA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC01D2A1DDC14E500C4F2DA /* CFNetwork.framework */; };
+		BCC01D2D1DDC14F300C4F2DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC01D2C1DDC14F300C4F2DA /* Foundation.framework */; };
+		BCC01D3A1DDC154100C4F2DA /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC01D2F1DDC154100C4F2DA /* GCDAsyncSocket.m */; };
+		BCC01D3B1DDC154100C4F2DA /* MTGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC01D311DDC154100C4F2DA /* MTGameController.m */; };
+		BCC01D3C1DDC154100C4F2DA /* MTHostGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC01D331DDC154100C4F2DA /* MTHostGameViewController.m */; };
+		BCC01D3D1DDC154100C4F2DA /* MTJoinGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC01D351DDC154100C4F2DA /* MTJoinGameViewController.m */; };
+		BCC01D3E1DDC154100C4F2DA /* MTPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC01D371DDC154100C4F2DA /* MTPacket.m */; };
+		BCC01D3F1DDC154100C4F2DA /* MTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC01D391DDC154100C4F2DA /* MTViewController.m */; };
+		BCC01D461DDC1C0500C4F2DA /* MTJoinTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC01D451DDC1C0500C4F2DA /* MTJoinTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC966DD12050FAD7006F33C8 /* MTServerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTServerViewController.h; sourceTree = "<group>"; };
+		BC966DD22050FAD7006F33C8 /* MTServerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTServerViewController.m; sourceTree = "<group>"; };
+		BCC01D081DDC145D00C4F2DA /* SocketMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocketMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC01D0C1DDC145D00C4F2DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCC01D0E1DDC145D00C4F2DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCC01D0F1DDC145D00C4F2DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCC01D111DDC145D00C4F2DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCC01D121DDC145D00C4F2DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCC01D151DDC145D00C4F2DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCC01D171DDC145D00C4F2DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCC01D1A1DDC145D00C4F2DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCC01D1C1DDC145D00C4F2DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCC01D241DDC14BD00C4F2DA /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		BCC01D261DDC14CE00C4F2DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BCC01D281DDC14DD00C4F2DA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BCC01D2A1DDC14E500C4F2DA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BCC01D2C1DDC14F300C4F2DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCC01D2E1DDC154100C4F2DA /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = ../GCDAsyncSocket.h; sourceTree = "<group>"; };
+		BCC01D2F1DDC154100C4F2DA /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = ../GCDAsyncSocket.m; sourceTree = "<group>"; };
+		BCC01D301DDC154100C4F2DA /* MTGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTGameController.h; path = ../MTGameController.h; sourceTree = "<group>"; };
+		BCC01D311DDC154100C4F2DA /* MTGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTGameController.m; path = ../MTGameController.m; sourceTree = "<group>"; };
+		BCC01D321DDC154100C4F2DA /* MTHostGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTHostGameViewController.h; path = ../MTHostGameViewController.h; sourceTree = "<group>"; };
+		BCC01D331DDC154100C4F2DA /* MTHostGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTHostGameViewController.m; path = ../MTHostGameViewController.m; sourceTree = "<group>"; };
+		BCC01D341DDC154100C4F2DA /* MTJoinGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTJoinGameViewController.h; path = ../MTJoinGameViewController.h; sourceTree = "<group>"; };
+		BCC01D351DDC154100C4F2DA /* MTJoinGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTJoinGameViewController.m; path = ../MTJoinGameViewController.m; sourceTree = "<group>"; };
+		BCC01D361DDC154100C4F2DA /* MTPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTPacket.h; path = ../MTPacket.h; sourceTree = "<group>"; };
+		BCC01D371DDC154100C4F2DA /* MTPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTPacket.m; path = ../MTPacket.m; sourceTree = "<group>"; };
+		BCC01D381DDC154100C4F2DA /* MTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTViewController.h; path = ../MTViewController.h; sourceTree = "<group>"; };
+		BCC01D391DDC154100C4F2DA /* MTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTViewController.m; path = ../MTViewController.m; sourceTree = "<group>"; };
+		BCC01D401DDC15D800C4F2DA /* SocketMusic-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SocketMusic-Prefix.pch"; sourceTree = "<group>"; };
+		BCC01D441DDC1C0500C4F2DA /* MTJoinTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTJoinTableViewController.h; sourceTree = "<group>"; };
+		BCC01D451DDC1C0500C4F2DA /* MTJoinTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTJoinTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCC01D051DDC145D00C4F2DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC01D2D1DDC14F300C4F2DA /* Foundation.framework in Frameworks */,
+				BCC01D2B1DDC14E500C4F2DA /* CFNetwork.framework in Frameworks */,
+				BCC01D291DDC14DD00C4F2DA /* Security.framework in Frameworks */,
+				BCC01D271DDC14CE00C4F2DA /* UIKit.framework in Frameworks */,
+				BCC01D251DDC14BD00C4F2DA /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCC01CFF1DDC145D00C4F2DA = {
+			isa = PBXGroup;
+			children = (
+				BCC01D0A1DDC145D00C4F2DA /* SocketMusic */,
+				BCC01D091DDC145D00C4F2DA /* Products */,
+				BCC01D231DDC14BD00C4F2DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BCC01D091DDC145D00C4F2DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCC01D081DDC145D00C4F2DA /* SocketMusic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCC01D0A1DDC145D00C4F2DA /* SocketMusic */ = {
+			isa = PBXGroup;
+			children = (
+				BCC01D0E1DDC145D00C4F2DA /* AppDelegate.h */,
+				BCC01D0F1DDC145D00C4F2DA /* AppDelegate.m */,
+				BCC01D111DDC145D00C4F2DA /* ViewController.h */,
+				BCC01D121DDC145D00C4F2DA /* ViewController.m */,
+				BCC01D141DDC145D00C4F2DA /* Main.storyboard */,
+				BC966DD12050FAD7006F33C8 /* MTServerViewController.h */,
+				BC966DD22050FAD7006F33C8 /* MTServerViewController.m */,
+				BCC01D381DDC154100C4F2DA /* MTViewController.h */,
+				BCC01D391DDC154100C4F2DA /* MTViewController.m */,
+				BCC01D221DDC148800C4F2DA /* SocketManage */,
+				BCC01D0B1DDC145D00C4F2DA /* Supporting Files */,
+			);
+			path = SocketMusic;
+			sourceTree = "<group>";
+		};
+		BCC01D0B1DDC145D00C4F2DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCC01D171DDC145D00C4F2DA /* Assets.xcassets */,
+				BCC01D191DDC145D00C4F2DA /* LaunchScreen.storyboard */,
+				BCC01D1C1DDC145D00C4F2DA /* Info.plist */,
+				BCC01D0C1DDC145D00C4F2DA /* main.m */,
+				BCC01D401DDC15D800C4F2DA /* SocketMusic-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCC01D221DDC148800C4F2DA /* SocketManage */ = {
+			isa = PBXGroup;
+			children = (
+				BCC01D2E1DDC154100C4F2DA /* GCDAsyncSocket.h */,
+				BCC01D2F1DDC154100C4F2DA /* GCDAsyncSocket.m */,
+				BCC01D301DDC154100C4F2DA /* MTGameController.h */,
+				BCC01D311DDC154100C4F2DA /* MTGameController.m */,
+				BCC01D321DDC154100C4F2DA /* MTHostGameViewController.h */,
+				BCC01D331DDC154100C4F2DA /* MTHostGameViewController.m */,
+				BCC01D341DDC154100C4F2DA /* MTJoinGameViewController.h */,
+				BCC01D351DDC154100C4F2DA /* MTJoinGameViewController.m */,
+				BCC01D441DDC1C0500C4F2DA /* MTJoinTableViewController.h */,
+				BCC01D451DDC1C0500C4F2DA /* MTJoinTableViewController.m */,
+				BCC01D361DDC154100C4F2DA /* MTPacket.h */,
+				BCC01D371DDC154100C4F2DA /* MTPacket.m */,
+			);
+			name = SocketManage;
+			sourceTree = "<group>";
+		};
+		BCC01D231DDC14BD00C4F2DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCC01D2C1DDC14F300C4F2DA /* Foundation.framework */,
+				BCC01D2A1DDC14E500C4F2DA /* CFNetwork.framework */,
+				BCC01D281DDC14DD00C4F2DA /* Security.framework */,
+				BCC01D261DDC14CE00C4F2DA /* UIKit.framework */,
+				BCC01D241DDC14BD00C4F2DA /* MediaPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCC01D071DDC145D00C4F2DA /* SocketMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC01D1F1DDC145D00C4F2DA /* Build configuration list for PBXNativeTarget "SocketMusic" */;
+			buildPhases = (
+				BCC01D041DDC145D00C4F2DA /* Sources */,
+				BCC01D051DDC145D00C4F2DA /* Frameworks */,
+				BCC01D061DDC145D00C4F2DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketMusic;
+			productName = SocketMusic;
+			productReference = BCC01D081DDC145D00C4F2DA /* SocketMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCC01D001DDC145D00C4F2DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Emilio Castrejon Guerrero";
+				TargetAttributes = {
+					BCC01D071DDC145D00C4F2DA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 567J3YX98J;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = BCC01D031DDC145D00C4F2DA /* Build configuration list for PBXProject "SocketMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCC01CFF1DDC145D00C4F2DA;
+			productRefGroup = BCC01D091DDC145D00C4F2DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCC01D071DDC145D00C4F2DA /* SocketMusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCC01D061DDC145D00C4F2DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC01D1B1DDC145D00C4F2DA /* LaunchScreen.storyboard in Resources */,
+				BCC01D181DDC145D00C4F2DA /* Assets.xcassets in Resources */,
+				BCC01D161DDC145D00C4F2DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCC01D041DDC145D00C4F2DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC01D3A1DDC154100C4F2DA /* GCDAsyncSocket.m in Sources */,
+				BCC01D3B1DDC154100C4F2DA /* MTGameController.m in Sources */,
+				BCC01D461DDC1C0500C4F2DA /* MTJoinTableViewController.m in Sources */,
+				BCC01D131DDC145D00C4F2DA /* ViewController.m in Sources */,
+				BCC01D3C1DDC154100C4F2DA /* MTHostGameViewController.m in Sources */,
+				BCC01D3F1DDC154100C4F2DA /* MTViewController.m in Sources */,
+				BCC01D101DDC145D00C4F2DA /* AppDelegate.m in Sources */,
+				BCC01D0D1DDC145D00C4F2DA /* main.m in Sources */,
+				BCC01D3E1DDC154100C4F2DA /* MTPacket.m in Sources */,
+				BCC01D3D1DDC154100C4F2DA /* MTJoinGameViewController.m in Sources */,
+				BC966DD32050FAD7006F33C8 /* MTServerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCC01D141DDC145D00C4F2DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCC01D151DDC145D00C4F2DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCC01D191DDC145D00C4F2DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCC01D1A1DDC145D00C4F2DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCC01D1D1DDC145D00C4F2DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCC01D1E1DDC145D00C4F2DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCC01D201DDC145D00C4F2DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 567J3YX98J;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocketMusic/SocketMusic-Prefix.pch";
+				INFOPLIST_FILE = SocketMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Castrejon.hnos.SocketMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCC01D211DDC145D00C4F2DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 567J3YX98J;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocketMusic/SocketMusic-Prefix.pch";
+				INFOPLIST_FILE = SocketMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Castrejon.hnos.SocketMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCC01D031DDC145D00C4F2DA /* Build configuration list for PBXProject "SocketMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC01D1D1DDC145D00C4F2DA /* Debug */,
+				BCC01D1E1DDC145D00C4F2DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCC01D1F1DDC145D00C4F2DA /* Build configuration list for PBXNativeTarget "SocketMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC01D201DDC145D00C4F2DA /* Debug */,
+				BCC01D211DDC145D00C4F2DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCC01D001DDC145D00C4F2DA /* Project object */;
+}
